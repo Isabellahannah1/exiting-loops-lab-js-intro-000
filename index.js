@@ -11,4 +11,10 @@ return array;
 
 function keepGoing(array, changeValue, skipValue){
   for (var i = 0; i < array.length; i++) {
-array[i] = changeValue
+    if (element === skipValue){
+    }
+    else {
+    array[i] = changeValue;
+    }
+}
+}
