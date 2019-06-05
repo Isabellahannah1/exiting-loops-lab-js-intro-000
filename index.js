@@ -19,4 +19,4 @@ function keepGoing(array, changeValue, skipValue){
     return array;
 }
 
-function 
+function findBy(array, findFn){}
