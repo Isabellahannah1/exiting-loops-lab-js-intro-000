@@ -1,11 +1,12 @@
 function breakOut(array, changeValue, stopValue){
-  for (let i = 0; i < array.length; i++) {
-  if (typeof array[i] !== 'string') {
+  for (var i = 0; i < array.length; i++) {
+  if (array[i] === stopValue) {
     break;
   }
  
-  doSomethingToString(array[i]);
+  array[i] = changeValue
 }
+return array
 }
 
 /* describe('loops', function() {
