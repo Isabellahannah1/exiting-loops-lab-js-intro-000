@@ -1,1 +1,1 @@
-function 
+function breakOut(array, changeValue, stopValue){}
